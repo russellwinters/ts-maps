@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "TypeScript Server for a tiny google maps project",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently --kill-others \"tsc -w\" \"nodemon dist/server.js\""
+  },
+  "keywords": [],
+  "author": "Russell Winters",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "twilio": "^3.43.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.5",
+    "@types/twilio": "^2.11.0",
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}

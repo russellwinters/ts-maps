@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES5", //Target JS version
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
