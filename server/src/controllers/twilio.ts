@@ -16,9 +16,6 @@ type RequestBody = {
 
 export const SendText: RequestHandler = (req: Request, res: Response) => {
   const { sendTo, message } = req.body as RequestBody;
-  console.log(`Send text to: ${sendTo}`);
-  console.log(process.env.TWILIO_ACCOUNT_SID);
-  console.log(process.env.TWILIO_AUTH_TOKEN);
 
   const messageInstance = {
     body: message,
